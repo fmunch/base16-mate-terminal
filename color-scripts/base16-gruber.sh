@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
-# Base16 vice - Mate Terminal color scheme install script
-# Thomas Leon Highbaugh thighbaugh@zoho.com
+# Base16 Gruber - Mate Terminal color scheme install script
+# Patel, Nimai &lt;nimai.m.patel@gmail.com&gt;, colors from www.github.com/rexim/gruber-darker-theme
 
-[[ -z "$PROFILE_NAME" ]] && PROFILE_NAME="Base 16 vice 256"
-[[ -z "$PROFILE_SLUG" ]] && PROFILE_SLUG="base-16-vice-256"
+[[ -z "$PROFILE_NAME" ]] && PROFILE_NAME="Base 16 Gruber"
+[[ -z "$PROFILE_SLUG" ]] && PROFILE_SLUG="base-16-gruber"
 [[ -z "$DCONFTOOL" ]] && DCONFTOOL=dconf
 [[ -z "$BASE_KEY" ]] && BASE_KEY=/org/mate/terminal
 
@@ -44,10 +44,10 @@ if [ -n "$DEFAULT_SLUG" ]; then
 fi
 
 dset visible-name "'$PROFILE_NAME'"
-dset palette "'#17191E:#ff29a8:#0badff:#f0ffaa:#00eaff:#00f6d9:#8265ff:#8b9cbe:#383a47:#ff29a8:#0badff:#f0ffaa:#00eaff:#00f6d9:#8265ff:#f4f4f7'"
-dset background-color "'#17191E'"
-dset foreground-color "'#8b9cbe'"
-dset bold-color "'#8b9cbe'"
+dset palette "'#181818:#f43841:#73c936:#ffdd33:#96a6c8:#9e95c7:#95a99f:#f4f4ff:#52494e:#c73c3f:#453d41:#484848:#e4e4ef:#f5f5f5:#cc8c3c:#e4e4ef'"
+dset background-color "'#181818'"
+dset foreground-color "'#f4f4ff'"
+dset bold-color "'#f4f4ff'"
 dset bold-color-same-as-fg "true"
 dset use-theme-colors "false"
 dset use-theme-background "false"

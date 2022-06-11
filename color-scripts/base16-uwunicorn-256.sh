@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
-# Base16 vice - Mate Terminal color scheme install script
-# Thomas Leon Highbaugh thighbaugh@zoho.com
+# Base16 UwUnicorn - Mate Terminal color scheme install script
+# Fernando Marques (https://github.com/RakkiUwU) and Gabriel Fontes (https://github.com/Misterio77)
 
-[[ -z "$PROFILE_NAME" ]] && PROFILE_NAME="Base 16 vice 256"
-[[ -z "$PROFILE_SLUG" ]] && PROFILE_SLUG="base-16-vice-256"
+[[ -z "$PROFILE_NAME" ]] && PROFILE_NAME="Base 16 UwUnicorn 256"
+[[ -z "$PROFILE_SLUG" ]] && PROFILE_SLUG="base-16-uwunicorn-256"
 [[ -z "$DCONFTOOL" ]] && DCONFTOOL=dconf
 [[ -z "$BASE_KEY" ]] && BASE_KEY=/org/mate/terminal
 
@@ -44,10 +44,10 @@ if [ -n "$DEFAULT_SLUG" ]; then
 fi
 
 dset visible-name "'$PROFILE_NAME'"
-dset palette "'#17191E:#ff29a8:#0badff:#f0ffaa:#00eaff:#00f6d9:#8265ff:#8b9cbe:#383a47:#ff29a8:#0badff:#f0ffaa:#00eaff:#00f6d9:#8265ff:#f4f4f7'"
-dset background-color "'#17191E'"
-dset foreground-color "'#8b9cbe'"
-dset bold-color "'#8b9cbe'"
+dset palette "'#241b26:#877bb6:#c965bf:#a84a73:#6a9eb5:#78a38f:#9c5fce:#eed5d9:#6c3cb2:#877bb6:#c965bf:#a84a73:#6a9eb5:#78a38f:#9c5fce:#e4ccd0'"
+dset background-color "'#241b26'"
+dset foreground-color "'#eed5d9'"
+dset bold-color "'#eed5d9'"
 dset bold-color-same-as-fg "true"
 dset use-theme-colors "false"
 dset use-theme-background "false"

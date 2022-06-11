@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
-# Base16 vice - Mate Terminal color scheme install script
-# Thomas Leon Highbaugh thighbaugh@zoho.com
+# Base16 Tokyo Night Dark - Mate Terminal color scheme install script
+# Michaël Ball
 
-[[ -z "$PROFILE_NAME" ]] && PROFILE_NAME="Base 16 vice 256"
-[[ -z "$PROFILE_SLUG" ]] && PROFILE_SLUG="base-16-vice-256"
+[[ -z "$PROFILE_NAME" ]] && PROFILE_NAME="Base 16 Tokyo Night Dark 256"
+[[ -z "$PROFILE_SLUG" ]] && PROFILE_SLUG="base-16-tokyo-night-dark-256"
 [[ -z "$DCONFTOOL" ]] && DCONFTOOL=dconf
 [[ -z "$BASE_KEY" ]] && BASE_KEY=/org/mate/terminal
 
@@ -44,10 +44,10 @@ if [ -n "$DEFAULT_SLUG" ]; then
 fi
 
 dset visible-name "'$PROFILE_NAME'"
-dset palette "'#17191E:#ff29a8:#0badff:#f0ffaa:#00eaff:#00f6d9:#8265ff:#8b9cbe:#383a47:#ff29a8:#0badff:#f0ffaa:#00eaff:#00f6d9:#8265ff:#f4f4f7'"
-dset background-color "'#17191E'"
-dset foreground-color "'#8b9cbe'"
-dset bold-color "'#8b9cbe'"
+dset palette "'#1A1B26:#C0CAF5:#9ECE6A:#0DB9D7:#2AC3DE:#BB9AF7:#B4F9F8:#A9B1D6:#444B6A:#C0CAF5:#9ECE6A:#0DB9D7:#2AC3DE:#BB9AF7:#B4F9F8:#D5D6DB'"
+dset background-color "'#1A1B26'"
+dset foreground-color "'#A9B1D6'"
+dset bold-color "'#A9B1D6'"
 dset bold-color-same-as-fg "true"
 dset use-theme-colors "false"
 dset use-theme-background "false"

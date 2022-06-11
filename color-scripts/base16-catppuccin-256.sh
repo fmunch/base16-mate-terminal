@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
-# Base16 vice - Mate Terminal color scheme install script
-# Thomas Leon Highbaugh thighbaugh@zoho.com
+# Base16 Catppuccin - Mate Terminal color scheme install script
+# Pocco81 (https://github.com/pocco81)
 
-[[ -z "$PROFILE_NAME" ]] && PROFILE_NAME="Base 16 vice 256"
-[[ -z "$PROFILE_SLUG" ]] && PROFILE_SLUG="base-16-vice-256"
+[[ -z "$PROFILE_NAME" ]] && PROFILE_NAME="Base 16 Catppuccin 256"
+[[ -z "$PROFILE_SLUG" ]] && PROFILE_SLUG="base-16-catppuccin-256"
 [[ -z "$DCONFTOOL" ]] && DCONFTOOL=dconf
 [[ -z "$BASE_KEY" ]] && BASE_KEY=/org/mate/terminal
 
@@ -44,10 +44,10 @@ if [ -n "$DEFAULT_SLUG" ]; then
 fi
 
 dset visible-name "'$PROFILE_NAME'"
-dset palette "'#17191E:#ff29a8:#0badff:#f0ffaa:#00eaff:#00f6d9:#8265ff:#8b9cbe:#383a47:#ff29a8:#0badff:#f0ffaa:#00eaff:#00f6d9:#8265ff:#f4f4f7'"
-dset background-color "'#17191E'"
-dset foreground-color "'#8b9cbe'"
-dset bold-color "'#8b9cbe'"
+dset palette "'#1E1E28:#F28FAD:#ABE9B3:#FAE3B0:#96CDFB:#DDB6F2:#B5E8E0:#D7DAE0:#575268:#F28FAD:#ABE9B3:#FAE3B0:#96CDFB:#DDB6F2:#B5E8E0:#C9CBFF'"
+dset background-color "'#1E1E28'"
+dset foreground-color "'#D7DAE0'"
+dset bold-color "'#D7DAE0'"
 dset bold-color-same-as-fg "true"
 dset use-theme-colors "false"
 dset use-theme-background "false"

@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-# Base16 Vice Dark - Mate Terminal color scheme install script
-# Thomas Leon Highbaugh
+# Base16 vice - Mate Terminal color scheme install script
+# Thomas Leon Highbaugh thighbaugh@zoho.com
 
-[[ -z "$PROFILE_NAME" ]] && PROFILE_NAME="Base 16 Vice Dark"
+[[ -z "$PROFILE_NAME" ]] && PROFILE_NAME="Base 16 vice"
 [[ -z "$PROFILE_SLUG" ]] && PROFILE_SLUG="base-16-vice"
 [[ -z "$DCONFTOOL" ]] && DCONFTOOL=dconf
 [[ -z "$BASE_KEY" ]] && BASE_KEY=/org/mate/terminal

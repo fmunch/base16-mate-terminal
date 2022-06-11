@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
-# Base16 vice - Mate Terminal color scheme install script
-# Thomas Leon Highbaugh thighbaugh@zoho.com
+# Base16 Ayu Dark - Mate Terminal color scheme install script
+# Khue Nguyen &lt;Z5483Y@gmail.com&gt;
 
-[[ -z "$PROFILE_NAME" ]] && PROFILE_NAME="Base 16 vice 256"
-[[ -z "$PROFILE_SLUG" ]] && PROFILE_SLUG="base-16-vice-256"
+[[ -z "$PROFILE_NAME" ]] && PROFILE_NAME="Base 16 Ayu Dark 256"
+[[ -z "$PROFILE_SLUG" ]] && PROFILE_SLUG="base-16-ayu-dark-256"
 [[ -z "$DCONFTOOL" ]] && DCONFTOOL=dconf
 [[ -z "$BASE_KEY" ]] && BASE_KEY=/org/mate/terminal
 
@@ -44,10 +44,10 @@ if [ -n "$DEFAULT_SLUG" ]; then
 fi
 
 dset visible-name "'$PROFILE_NAME'"
-dset palette "'#17191E:#ff29a8:#0badff:#f0ffaa:#00eaff:#00f6d9:#8265ff:#8b9cbe:#383a47:#ff29a8:#0badff:#f0ffaa:#00eaff:#00f6d9:#8265ff:#f4f4f7'"
-dset background-color "'#17191E'"
-dset foreground-color "'#8b9cbe'"
-dset bold-color "'#8b9cbe'"
+dset palette "'#0F1419:#F07178:#B8CC52:#FFB454:#59C2FF:#D2A6FF:#95E6CB:#E6E1CF:#3E4B59:#F07178:#B8CC52:#FFB454:#59C2FF:#D2A6FF:#95E6CB:#F3F4F5'"
+dset background-color "'#0F1419'"
+dset foreground-color "'#E6E1CF'"
+dset bold-color "'#E6E1CF'"
 dset bold-color-same-as-fg "true"
 dset use-theme-colors "false"
 dset use-theme-background "false"
