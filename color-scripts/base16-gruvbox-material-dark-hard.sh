@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-# Base16 Gruvbox Material Dark, Medium - Mate Terminal color scheme install script
+# Base16 Gruvbox Material Dark, Hard - Mate Terminal color scheme install script
 # Mayush Kumar (https://github.com/MayushKumar), sainnhe (https://github.com/sainnhe/gruvbox-material-vscode)
 
-[[ -z "$PROFILE_NAME" ]] && PROFILE_NAME="Base 16 Gruvbox Material Dark, Medium"
+[[ -z "$PROFILE_NAME" ]] && PROFILE_NAME="Base 16 Gruvbox Material Dark, Hard"
 [[ -z "$PROFILE_SLUG" ]] && PROFILE_SLUG="base-16-gruvbox-material-dark-hard"
 [[ -z "$DCONFTOOL" ]] && DCONFTOOL=dconf
 [[ -z "$BASE_KEY" ]] && BASE_KEY=/org/mate/terminal

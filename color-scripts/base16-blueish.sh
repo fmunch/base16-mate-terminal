@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-# Base16 better-contrast - Mate Terminal color scheme install script
+# Base16 Blueish - Mate Terminal color scheme install script
 # Ben Mayoras
 
-[[ -z "$PROFILE_NAME" ]] && PROFILE_NAME="Base 16 better-contrast"
+[[ -z "$PROFILE_NAME" ]] && PROFILE_NAME="Base 16 Blueish"
 [[ -z "$PROFILE_SLUG" ]] && PROFILE_SLUG="base-16-blueish"
 [[ -z "$DCONFTOOL" ]] && DCONFTOOL=dconf
 [[ -z "$BASE_KEY" ]] && BASE_KEY=/org/mate/terminal

@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
-# Base16 Gruvbox Material Dark, Hard - Mate Terminal color scheme install script
-# Mayush Kumar (https://github.com/MayushKumar), sainnhe (https://github.com/sainnhe/gruvbox-material-vscode)
+# Base16 Harmonic16 Dark - Mate Terminal color scheme install script
+# Jannik Siebert (https://github.com/janniks)
 
-[[ -z "$PROFILE_NAME" ]] && PROFILE_NAME="Base 16 Gruvbox Material Dark, Hard 256"
-[[ -z "$PROFILE_SLUG" ]] && PROFILE_SLUG="base-16-gruvbox-material-dark-hard-256"
+[[ -z "$PROFILE_NAME" ]] && PROFILE_NAME="Base 16 Harmonic16 Dark 256"
+[[ -z "$PROFILE_SLUG" ]] && PROFILE_SLUG="base-16-harmonic16-dark-256"
 [[ -z "$DCONFTOOL" ]] && DCONFTOOL=dconf
 [[ -z "$BASE_KEY" ]] && BASE_KEY=/org/mate/terminal
 
@@ -44,10 +44,10 @@ if [ -n "$DEFAULT_SLUG" ]; then
 fi
 
 dset visible-name "'$PROFILE_NAME'"
-dset palette "'#202020:#ea6962:#a9b665:#d8a657:#7daea3:#d3869b:#89b482:#ddc7a1:#5a524c:#ea6962:#a9b665:#d8a657:#7daea3:#d3869b:#89b482:#fbf1c7'"
-dset background-color "'#202020'"
-dset foreground-color "'#ddc7a1'"
-dset bold-color "'#ddc7a1'"
+dset palette "'#0b1c2c:#bf8b56:#56bf8b:#8bbf56:#8b56bf:#bf568b:#568bbf:#cbd6e2:#627e99:#bf8b56:#56bf8b:#8bbf56:#8b56bf:#bf568b:#568bbf:#f7f9fb'"
+dset background-color "'#0b1c2c'"
+dset foreground-color "'#cbd6e2'"
+dset bold-color "'#cbd6e2'"
 dset bold-color-same-as-fg "true"
 dset use-theme-colors "false"
 dset use-theme-background "false"

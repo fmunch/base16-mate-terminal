@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-# Base16 Tomorrow Night - Mate Terminal color scheme install script
+# Base16 Tomorrow Night Eighties - Mate Terminal color scheme install script
 # Chris Kempson (http://chriskempson.com)
 
-[[ -z "$PROFILE_NAME" ]] && PROFILE_NAME="Base 16 Tomorrow Night"
+[[ -z "$PROFILE_NAME" ]] && PROFILE_NAME="Base 16 Tomorrow Night Eighties"
 [[ -z "$PROFILE_SLUG" ]] && PROFILE_SLUG="base-16-tomorrow-night-eighties"
 [[ -z "$DCONFTOOL" ]] && DCONFTOOL=dconf
 [[ -z "$BASE_KEY" ]] && BASE_KEY=/org/mate/terminal
