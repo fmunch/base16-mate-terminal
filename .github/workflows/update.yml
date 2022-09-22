@@ -10,27 +10,29 @@ jobs:
     name: Color scripts update
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout template
+        uses: actions/checkout@v3
       - name: Checkout builder
         uses: actions/checkout@v3
         with:
           repository: InspectorMustache/base16-builder-python
-      - name: Checkout template
-        uses: actions/checkout@v3
-        with:
-          path: templates/mate-terminal
+          path: builder
       - name: Update builder
         run: |
+          cd builder
           sudo apt-get install python3-aiofiles python3-pystache
           python3 pybase16.py update
       - name: Build
         run: |
-          python3 pybase16.py build -t mate-terminal
-          chmod +x output/mate-terminal/color-scripts/base16-*.sh
-          mkdir -p templates/mate-terminal/color-scripts
-          cp output/mate-terminal/color-scripts/base16-*.sh templates/mate-terminal/color-scripts
+          cd builder
+          ln -s ../.. templates/mate-terminal-current
+          ls -l templates/mate-terminal-current
+          python3 pybase16.py build -t mate-terminal-current
+          chmod +x output/mate-terminal-current/color-scripts/base16-*.sh
+          mkdir -p templates/mate-terminal-current/color-scripts
+          cp output/mate-terminal-current/color-scripts/base16-*.sh templates/mate-terminal-current/color-scripts
       - name: Commit color scripts
         run: |
-          cd templates/mate-terminal
           git add color-scripts
           if ! git diff --staged --exit-code >/dev/null; then
             git config user.name github-actions
