@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
-# Base16 Gruber - Mate Terminal color scheme install script
-# Patel, Nimai &lt;nimai.m.patel@gmail.com&gt;, colors from www.github.com/rexim/gruber-darker-theme
+# Base16 DanQing Light - Mate Terminal color scheme install script
+# Wenhan Zhu (Cosmos) (zhuwenhan950913@gmail.com)
 
-[[ -z "$PROFILE_NAME" ]] && PROFILE_NAME="Base 16 Gruber"
-[[ -z "$PROFILE_SLUG" ]] && PROFILE_SLUG="base-16-gruber"
+[[ -z "$PROFILE_NAME" ]] && PROFILE_NAME="Base 16 DanQing Light"
+[[ -z "$PROFILE_SLUG" ]] && PROFILE_SLUG="base-16-danqing-light"
 [[ -z "$DCONFTOOL" ]] && DCONFTOOL=dconf
 [[ -z "$BASE_KEY" ]] && BASE_KEY=/org/mate/terminal
 
@@ -44,10 +44,10 @@ if [ -n "$DEFAULT_SLUG" ]; then
 fi
 
 dset visible-name "'$PROFILE_NAME'"
-dset palette "'#181818:#f43841:#73c936:#ffdd33:#96a6c8:#9e95c7:#95a99f:#f4f4ff:#9dae93:#c73c3f:#453d41:#665c7f:#e4e4ef:#f5f5f5:#cc8c3c:#e4e4ef'"
-dset background-color "'#181818'"
-dset foreground-color "'#f4f4ff'"
-dset bold-color "'#f4f4ff'"
+dset palette "'#fcfefd:#F9906F:#8AB361:#F0C239:#B0A4E3:#CCA4E3:#30DFF3:#5a605d:#cad8d2:#B38A61:#ecf6f2:#e0f0eF:#9da8a3:#434846:#CA6924:#2d302f'"
+dset background-color "'#fcfefd'"
+dset foreground-color "'#5a605d'"
+dset bold-color "'#5a605d'"
 dset bold-color-same-as-fg "true"
 dset use-theme-colors "false"
 dset use-theme-background "false"
