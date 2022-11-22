@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Base16 Rosé Pine - Mate Terminal color scheme install script
-# Emilia Dunfelt &lt;sayhi@dunfelt.se&gt;
+# Emilia Dunfelt &lt;edun@dunfelt.se&gt;
 
 [[ -z "$PROFILE_NAME" ]] && PROFILE_NAME="Base 16 Rosé Pine"
 [[ -z "$PROFILE_SLUG" ]] && PROFILE_SLUG="base-16-rose-pine"
@@ -44,7 +44,7 @@ if [ -n "$DEFAULT_SLUG" ]; then
 fi
 
 dset visible-name "'$PROFILE_NAME'"
-dset palette "'#191724:#e2e1e7:#ebbcba:#f6c177:#9ccfd8:#c4a7e7:#31748f:#e0def4:#555169:#eb6f92:#1f1d2e:#26233a:#6e6a86:#f0f0f3:#e5e5e5:#c5c3ce'"
+dset palette "'#191724:#eb6f92:#31748f:#ebbcba:#c4a7e7:#f6c177:#9ccfd8:#e0def4:#6e6a86:#f6c177:#1f1d2e:#26233a:#908caa:#e0def4:#524f67:#524f67'"
 dset background-color "'#191724'"
 dset foreground-color "'#e0def4'"
 dset bold-color "'#e0def4'"
