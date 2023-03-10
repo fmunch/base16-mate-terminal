@@ -44,10 +44,10 @@ if [ -n "$DEFAULT_SLUG" ]; then
 fi
 
 dset visible-name "'$PROFILE_NAME'"
-dset palette "'#262626:#5F8787:#87AF87:#5F8787:#FFFFAF:#87AFD7:#5F875F:#BCBCBC:#6C6C6C:#FF8700:#303030:#333333:#787878:#C9C9C9:#5F87AF:#FFFFFF'"
+dset palette "'#262626:#444444:#FFFFAF:#87AF87:#8787AF:#5FAFAF:#87AFD7:#5F5F87:#87875F:#FF8700:#AF5F5F:#5F875F:#5F87AF:#5F8787:#BCBCBC:#6C6C6C'"
 dset background-color "'#262626'"
-dset foreground-color "'#BCBCBC'"
-dset bold-color "'#BCBCBC'"
+dset foreground-color "'#5F5F87'"
+dset bold-color "'#5F5F87'"
 dset bold-color-same-as-fg "true"
 dset use-theme-colors "false"
 dset use-theme-background "false"
