@@ -25,12 +25,12 @@ the new profile.
 
 ## Environment Variables
 
-Variable     | Default value       | Description
--------------|---------------------|----------------------------
-PROFILE_NAME | Base 16 Scheme Name | Display name of the profile
-PROFILE_SLUG | base-16-scheme-slug | Identifier of the profile
-DCONFTOOL    | `dconf`             | Path to the dconf binary
-BASE_KEY     | /org/mate/terminal  | dconf base key
+| Variable     | Default value       | Description                 |
+|--------------|---------------------|-----------------------------|
+| PROFILE_NAME | Base 16 Scheme Name | Display name of the profile |
+| PROFILE_SLUG | base-16-scheme-slug | Identifier of the profile   |
+| DCONFTOOL    | `dconf`             | Path to the dconf binary    |
+| BASE_KEY     | /org/mate/terminal  | dconf base key              |
 
 ## 256 variations
 
