@@ -22,8 +22,6 @@ jobs:
           cd builder
           sudo apt-get install python3-aiofiles python3-pystache
           python3 pybase16.py update
-          # workaround Thomashighbaugh/base16-vice-scheme#7
-          [ -f schemes/vice/vice.yaml ] && sed -ri 's/"#([0-9a-f]+)"/"\1"/g' schemes/vice/vice.yaml
       - name: Build
         run: |
           cd builder
